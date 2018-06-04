@@ -28,7 +28,7 @@ class Projects extends Component {
                                 <div className="collapse" id={`project-${project.id}`}>
                                     <div className="description-card card card-body text-dark">
                                         <p className="card-text">{project.description}</p>
-                                        <Link className="card-link" to={`/projects/${project.id}`}>See more about {project.name}.</Link>
+                                        <Link className="card-link" to={`./projects/${project.id}`}>See more about {project.name}.</Link>
                                     </div>
                                 </div>
                             </div>

@@ -39,14 +39,14 @@ class Navbar extends Component {
                             ? "nav-item active"
                             : "nav-item"
                         }>
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to="./">Home</Link>
                         </li>
                         <li className={
-                            window.location.pathname === "/projects"
+                            window.location.pathname === "./projects"
                             ? "nav-item active"
                             : "nav-item"
                         }>
-                            <Link className="nav-link" to="/projects">Projects</Link>
+                            <Link className="nav-link" to="./projects">Projects</Link>
                         </li>
                     </ul>
                 </div>
