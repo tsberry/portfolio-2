@@ -6,16 +6,24 @@ class Project extends Component {
     render() {
         const project = projects[this.props.match.params.id];
         return (
-            <div className="col-md-12">
+            <div className="col-12">
                 <h1 className="display-3 text-center">{project.name}</h1>
                 <div className="row">
-                    <a className="link-button btn btn-dark mr-auto" href={project.repository}>See the Code</a>
-                    {project.deployed !== "none" ?
-                        <a className="link-button btn btn-dark ml-auto" href={project.deployed}>See the Site</a>
-                        : ""}
+                    <div className="col-md-3">
+                        <a className="link-button btn btn-dark" href={project.repository}>See the Code</a>
+                    </div>
+                    <div className="col-6">
+                    </div>
+                    <div className="col-md-3">
+                        {project.deployed !== "none" ?
+                            <a className="link-button btn btn-dark" href={project.deployed}>See the Site</a>
+                            : ""}
+                    </div>
                 </div>
                 <div className="row">
-                <img className="img-fluid" src={project.image} alt={project.name} />
+                    <div className="col-12 img-container">
+                        <img src={project.image} alt={project.name} />
+                    </div>
                 </div>
                 <h2>About {project.name}</h2>
                 <p className="description">{project.description}</p>

@@ -29,7 +29,7 @@ class Navbar extends Component {
                         </ul>
                         </div>
                 <div className="mx-auto order-0">
-                <Link className="mx-auto navbar-brand" to="/">Thomas Berry</Link>
+                <Link className="navbar-brand" to="/">Thomas Berry</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse-target" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

@@ -1,4 +1,9 @@
+.img-container img {
+    width: 100%;
+}
+
 .link-button {
+    width: 100%;
     font-size: 1.5rem;
 }
 
