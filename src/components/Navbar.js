@@ -26,7 +26,7 @@ class Navbar extends Component {
                         </ul>
                         </div>
                 <div className="mx-auto order-0">
-                <Link className="mx-auto navbar-brand" to="/">Thomas Berry</Link>
+                <Link className="mx-auto navbar-brand" to="./">Thomas Berry</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapse-target" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -35,7 +35,7 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse order-1 collapse-target">
                     <ul className="navbar-nav ml-auto">
                         <li className={
-                            window.location.pathname === "/"
+                            window.location.pathname === "./"
                             ? "nav-item active"
                             : "nav-item"
                         }>
