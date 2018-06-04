@@ -1,0 +1,19 @@
+.project-img {
+    height: 200px;
+}
+
+.project-card a {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.img-link {
+    color: white;
+}
+
+.img-link:hover {
+    color: grey;
+}
+
+.description-card a {
+    font-family: "EB Garamond", serif;
+}
