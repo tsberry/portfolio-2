@@ -2,16 +2,28 @@
     height: 200px;
 }
 
-.project-card a {
-    font-family: "Source Sans Pro", sans-serif;
+.background-icon {
+    color: #343a40;
 }
 
-.img-link {
+.project-link:hover .background-icon {
+    color: rgb(35, 39, 43);
+}
+
+.project-link:active .background-icon {
+    color: rgb(29, 33, 36);
+}
+
+.top-icon {
     color: white;
 }
 
-.img-link:hover {
-    color: grey;
+.about-button {
+    font-size: 1.5rem;
+}
+
+.description-card {
+    font-size: 1.25rem;
 }
 
 .description-card a {

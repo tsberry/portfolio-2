@@ -9,17 +9,20 @@ class Navbar extends Component {
             <div className="collapse navbar-collapse order-2 order-sm-0 collapse-target">
             <ul className="navbar-nav mr-auto icon-list">
                             <li className="mx-2">
-                                <a href="https://www.linkedin.com/in/thomas-berry-34a524162/" className="fab fa-linkedin-in">
+                                <a href="https://www.linkedin.com/in/thomas-berry-34a524162/">
+                                <i className="fab fa-linkedin-in" />
                                 <span className="sr-only">LinkedIn</span>
                                 </a>
                             </li>
                             <li className="mx-2">
-                                <a href="https://www.github.com/tsberry" className="fab fa-github-alt">
+                                <a href="https://www.github.com/tsberry">
+                                <i className="fab fa-github-alt" />
                                 <span className="sr-only">GitHub</span>
                                 </a>
                             </li>
                             <li className="mx-2">
-                                <a href="mailto:tberry6@gmail.com" className="fas fa-envelope">
+                                <a href="mailto:tberry6@gmail.com">
+                                <i className="fas fa-envelope" />
                                 <span className="sr-only">Email</span>
                                 </a>
                             </li>
