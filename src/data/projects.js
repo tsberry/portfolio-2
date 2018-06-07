@@ -59,7 +59,7 @@ projects.push(
         "Memory Game",
         "/assets/images/react-game.png",
         "The React Memory Game is a front-end single-page web game built with React.",
-        "The React Memory Game is a single page game using React state to keep track of clicked images, as well as tracking the highest score earned from playing the game",
+        "The React Memory Game is a single page game using React state to keep track of clicked images, as well as tracking the highest score earned from playing the game.",
         ["React", "Bootstrap"],
         "https://github.com/tsberry/react-game",
         "https://tsberry.github.io/react-game/"
@@ -72,7 +72,7 @@ projects.push(
         "/assets/images/scraper.png",
         "The Mongo Scraper is a site that scrapes article headlines and summaries from a news website and saves them to a Mongo database.",
         "The Mongo Scraper is a site that scrapes article headlines, summaries, and links from Anime News Network. The articles are saved to a Mongo database. Articles can also be pinned to a separate page, and can be commented on.",
-        ["Axios", "Cheerio", "MongoDB", "Mongoose", "Bootstrap"],
+        ["Axios", "Cheerio", "MongoDB", "Mongoose", "Handlebars.js", "Bootstrap"],
         "https://github.com/tsberry/mongo-scraper-2",
         "https://mongo-scraper-5-3.herokuapp.com"
     )
@@ -102,6 +102,17 @@ projects.push(
 
 projects.push(
     new Project(
+        "Word Guess",
+        "/assets/images/wordguess.png",
+        "Word Guess is a hangman game played on the command line.",
+        "Word Guess is a command line hangman game. It picks a random word, then takes in user input and compares it to the word, to determine if the user guess was correct",
+        ["Node.js", "Inquirer"],
+        "https://github.com/tsberry/word-guess",
+        "none"
+    )
+)
+projects.push(
+    new Project(
         "Star Wars Game", 
         "/assets/images/starwars.png",
         "The Star Wars Game is a very simple turn-based fighting game.",
@@ -110,5 +121,17 @@ projects.push(
         "https://github.com/tsberry/week-4-game-hard", 
         "https://tsberry.github.io/week-4-game-hard"
     ));
+
+projects.push(
+    new Project(
+        "Hangman",
+        "/assets/images/hangman.png",
+        "Hangman is a single page game built with vanilla javascript.",
+        "Hangman is a single page static site that allows you to play a game of hangman with a randomly chosen word.",
+        ["HTML", "CSS", "Bootstrap", "Javascript"],
+        "https://github.com/tsberry/hangman-game",
+        "https://tsberry.github.io/Hangman-Game"
+    )
+)
 
 module.exports = projects;
