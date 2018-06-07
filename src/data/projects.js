@@ -44,6 +44,42 @@ projects.push(
 
 projects.push(
     new Project(
+        "React NYT Search",
+        "/assets/images/nytreact.png",
+        "This web site is a React application allowing you to search the New York Times via the New York Times API.",
+        "This web site is a React application allowing you to search the New York Times via the New York Times API. Articles are found matching search keywords and a year range. Once found, the articles can be saved to a Mongo database.",
+        ["React", "React Router", "Bootstrap", "MongoDB", "Mongoose", "New York Times Article Search API"],
+        "https://github.com/tsberry/nytreact",
+        "https://nyt-react-2018.herokuapp.com"
+    )
+);
+
+projects.push(
+    new Project(
+        "Memory Game",
+        "/assets/images/react-game.png",
+        "The React Memory Game is a front-end single-page web game built with React.",
+        "The React Memory Game is a single page game using React state to keep track of clicked images, as well as tracking the highest score earned from playing the game",
+        ["React", "Bootstrap"],
+        "https://github.com/tsberry/react-game",
+        "https://tsberry.github.io/react-game/"
+    )
+);
+
+projects.push(
+    new Project(
+        "Mongo Scraper",
+        "/assets/images/scraper.png",
+        "The Mongo Scraper is a site that scrapes article headlines and summaries from a news website and saves them to a Mongo database.",
+        "The Mongo Scraper is a site that scrapes article headlines, summaries, and links from Anime News Network. The articles are saved to a Mongo database. Articles can also be pinned to a separate page, and can be commented on.",
+        ["Axios", "Cheerio", "MongoDB", "Mongoose", "Bootstrap"],
+        "https://github.com/tsberry/mongo-scraper-2",
+        "https://mongo-scraper-5-3.herokuapp.com"
+    )
+);
+
+projects.push(
+    new Project(
         "Friend Finder", 
         "/assets/images/friendfinder.jpg",
         "Friend Finder is a website that allows you to take a brief personality quiz and then matches you with the person whose responses were most similar to you.",
