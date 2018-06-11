@@ -38,11 +38,11 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse order-1 collapse-target">
                     <ul className="navbar-nav ml-auto">
                         <li className={
-                            window.location.pathname === "/"
+                            window.location.pathname === "/about"
                             ? "nav-item active"
                             : "nav-item"
                         }>
-                            <Link className="nav-link" to="/">Home</Link>
+                            <Link className="nav-link" to="/about">About Me</Link>
                         </li>
                         <li className={
                             window.location.pathname === "/projects"
