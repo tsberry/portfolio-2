@@ -11,7 +11,7 @@ function Project(name, image, short, description, technologies, repository, depl
 var projects = [];
 projects.push(
     new Project(
-        "Unify", 
+        "Unify",
         "/assets/images/unify.png",
         "Unify is a website for searching colleges in the United States, incorporating data from the Department of Education and Google Maps.",
         "Unify is a website for searching colleges in the United States, incorporating data from the Department of Education and Google Maps. Includes separate views for prospective students, who can save schools to a list and ask questions about schools, and alumni, who can rate their school and answer questions posted by prospective students.",
@@ -22,23 +22,23 @@ projects.push(
 
 projects.push(
     new Project(
-        "Jokester", 
+        "Jokester",
         "/assets/images/jokester.png",
         "Jokester is a simple web forum for posting, viewing, and commenting on jokes, written with Node.js, Express.js, and Sequelize.",
-        "Jokester is a simple web forum for posting, viewing, and commenting on jokes. Users can also upvote or downvote jokes and comments.", 
+        "Jokester is a simple web forum for posting, viewing, and commenting on jokes. Users can also upvote or downvote jokes and comments.",
         ["Node.js", "Express.js", "MySQL", "Sequelize", "Passport.js", "Handlebars.js", "Bootstrap"],
-        "https://github.com/tsberry/jokester", 
+        "https://github.com/tsberry/jokester",
         "https://jokester-4-26.herokuapp.com"
     ));
 
 projects.push(
     new Project(
-        "Face Yourself", 
+        "Face Yourself",
         "/assets/images/faceyourself.jpg",
         "Face Yourself is a single page web application that takes in a photo of a face and provides recommendations for a user based on the emotions detected in the face.",
         "Face Yourself is a single page web application taking in a photo of a face and integrating two third-party APIs (Face++ and Tastedive) to provide recommendations for a user based on the emotions detected in the face.",
         ["Face++ API", "Tastedive API", "Firebase", "jQuery", "Materialize"],
-        "https://github.com/davidlatuno/faceyourself", 
+        "https://github.com/davidlatuno/faceyourself",
         "https://davidlatuno.github.io/FaceYourself"
     ));
 
@@ -80,23 +80,23 @@ projects.push(
 
 projects.push(
     new Project(
-        "Friend Finder", 
+        "Friend Finder",
         "/assets/images/friendfinder.jpg",
         "Friend Finder is a website that allows you to take a brief personality quiz and then matches you with the person whose responses were most similar to you.",
-        "Friend Finder is a website that allows you to take a brief personality quiz and then matches you with the person whose responses were most similar to you.", 
+        "Friend Finder is a website that allows you to take a brief personality quiz and then matches you with the person whose responses were most similar to you.",
         ["Node.js", "Express.js", "Bootstrap"],
-        "https://github.com/tsberry/friendfinder", 
+        "https://github.com/tsberry/friendfinder",
         "https://friendfinder-2018.herokuapp.com"
     ));
 
 projects.push(
     new Project(
-        "Bamazon", 
+        "Bamazon",
         "/assets/images/bamazon.png",
         "Bamazon is a command-line node application simulating a virtual store.",
         "Bamazon is a command-line node application simulating a virtual store. It contains three separate views for customers, managers, and supervisors; each view has different options such as buying products, checking inventory, and viewing store sales by department.",
-        ["Node.js", "Inquirer"],
-        "https://github.com/tsberry/bamazon", 
+        ["Node.js", "Inquirer", "MySQL"],
+        "https://github.com/tsberry/bamazon",
         "none"
     ));
 
@@ -105,20 +105,31 @@ projects.push(
         "Word Guess",
         "/assets/images/wordguess.png",
         "Word Guess is a hangman game played on the command line.",
-        "Word Guess is a command line hangman game. It picks a random word, then takes in user input and compares it to the word, to determine if the user guess was correct",
+        "Word Guess is a command line hangman game. It picks a random word, then takes in user input and compares it to the word, to determine if the user guess was correct.",
         ["Node.js", "Inquirer"],
         "https://github.com/tsberry/word-guess",
         "none"
-    )
-)
+    ));
+
 projects.push(
     new Project(
-        "Star Wars Game", 
+        "Liri",
+        "/assets/images/liri.png",
+        "Liri is a command line application that interfaces with three APIs.",
+        "Liri is a node command line application that interfaces with three different APIs - Twitter, Spotify, and OMDB - to provide data to the user.",
+        ["Node.js", "Twitter API", "Spotify API"],
+        "https://github.com/tsberry/liri-node-app",
+        "none"
+    ));
+
+projects.push(
+    new Project(
+        "Star Wars Game",
         "/assets/images/starwars.png",
         "The Star Wars Game is a very simple turn-based fighting game.",
         "The Star Wars Game is a very simple turn-based fighting game. You begin by picking a character. You then challenge opponents in sequence, attacking each until either your character or the opponent is reduced to 0 hp. If you defeat all opponents before your character reaches 0 hp, you win the game.",
         ["HTML", "CSS", "jQuery"],
-        "https://github.com/tsberry/week-4-game-hard", 
+        "https://github.com/tsberry/week-4-game-hard",
         "https://tsberry.github.io/week-4-game-hard"
     ));
 
@@ -128,7 +139,7 @@ projects.push(
         "/assets/images/hangman.png",
         "Hangman is a single page game built with vanilla javascript.",
         "Hangman is a single page static site that allows you to play a game of hangman with a randomly chosen word.",
-        ["HTML", "CSS", "Bootstrap", "Javascript"],
+        ["HTML", "Bootstrap", "Javascript"],
         "https://github.com/tsberry/hangman-game",
         "https://tsberry.github.io/Hangman-Game"
     )
