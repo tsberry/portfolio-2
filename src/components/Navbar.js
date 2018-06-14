@@ -9,7 +9,7 @@ class Navbar extends Component {
             <div className="collapse navbar-collapse order-2 order-sm-0 collapse-target">
             <ul className="navbar-nav mr-auto icon-list">
                             <li className="mx-2">
-                                <a href="https://www.linkedin.com/in/thomas-berry-34a524162/">
+                                <a href="https://www.linkedin.com/in/thomas-berry/">
                                 <i className="fab fa-linkedin-in" />
                                 <span className="sr-only">LinkedIn</span>
                                 </a>
